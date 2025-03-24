@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>eleatcereal</title>
+  </head>
+  <body>
+    <div>
+      <!-- head offers -->
+      <div
+        style="background-color: #6be3ed"
+        id="carouselExample"
+        class="carousel slide"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>Subscribe & save 20% + free delivery</p>
+          </div>
+          <div class="carousel-item">
+            <p>4000+ Trustpilot reviews (Rated 4.4/5)</p>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="mobile-menu">☰</div>
+
+        <div class="left-nav">
+          <div class="shop-dropdown">
+            <div class="shop-button">
+              <a href="#">Shop</a>
+            </div>
+            <div class="shop-dropdown-content">
+              <div class="shop-categories">
+                <a href="#" class="shop-category"><div>Protein Cereal</div></a>
+                <a href="#" class="shop-category"><div>Protein Oats</div></a>
+                <a href="#" class="shop-category"><div>Protein Granola</div></a>
+                <a href="#" class="shop-category"><div>Shop All</div></a>
+              </div>
+            </div>
+          </div>
+          <a href="#">Build a Bundle</a>
+        </div>
+
+        <a href="#" class="logo">
+          <img class="logo_img" src="/public/logo.png" alt="logo" />
+        </a>
+
+        <div class="right-nav">
+          <div class="dropdown">
+            <a href="#">About</a>
+            <div class="dropdown-content">
+              <a href="#">Reviews</a>
+              <a href="#">Our Story</a>
+              <a href="#">Store Locator</a>
+            </div>
+          </div>
+          <a href="#">Refer a Friend</a>
+          <div class="account-icon">
+            <i class="fa-regular fa-user"></i>
+          </div>
+          <div class="cart-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              class="bi bi-cart2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"
+              />
+            </svg>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Bootstrap JS -->
+
+    <header>
+      <div class="header-text">
+        <img src="/public/trustpilot.png" alt="trustpilot_rating" />
+        <h2>Fuel Your Mornings</h2>
+        <h3>
+          The ultimate guilt-free breakfasts, formulated for active lifestyles
+        </h3>
+        <button class="h_btn1">BUILD YOUR BUNDLE</button>
+        <button class="h_btn2">NEW: PROTEIN OATS</button>
+        <p>Join 50,000+ who made the switch</p>
+      </div>
+    </header>
+
+    <!-- logo carousel -->
+
+    <section class="as-seen-in">
+      <h2>AS SEEN IN</h2>
+      <div class="logo-carousel">
+        <div class="logo-carousel-inner">
+          <!-- Original set of logos -->
+          <div class="logo-item">
+            <img src="/public/carousel_logo1.png" alt="Men's Fitness />
+          </div>
+          <div class="logo-item">
+            <img
+              src="/public/carousel_logo2.png"
+              alt="Sheerluxe"
+              style="height: 20px"
+            />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo3.png" alt="Women's Health" />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo4.png" alt="Women's Running" />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo5.png" alt="Daily Express" />
+          </div>
+
+          <!-- Duplicate logos to create seamless loop -->
+          <div class="logo-item">
+            <img src="/public/carousel_logo1.png" alt="Men's Fitness />
+          </div>
+          <div class="logo-item">
+            <img
+              src="/public/carousel_logo2.png"
+              alt="Sheerluxe"
+              style="height: 20px"
+            />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo3.png" alt="Women's Health" />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo4.png" alt="Women's Running" />
+          </div>
+          <div class="logo-item">
+            <img src="/public/carousel_logo5.png" alt="Daily Express" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- card carousel  -->
+    <section class="products">
+      <h2 class="product_heading">Get started with ELEAT</h2>
+      <h3 style="font-size: 1rem">
+        All-in-one protein breakfast to help you perform your best
+      </h3>
+      <div class="carousel-container">
+        <div class="carousel-arrow prev">&#10094;</div>
+        <div class="carousel-arrow next">&#10095;</div>
+
+        <div class="card-carousel">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/public/card-1.png" alt="ELEAT Protein Oats" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">New: Protein Oats</h3>
+              <p class="card-subtitle">400g pouches - 5 x 80g servings</p>
+              <a href="#" class="card-shop-button">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/public/card-2.png" alt="ELEAT Protein Cereal" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Protein Cereal</h3>
+              <p class="card-subtitle">250g pouches - 5 x 50g servings</p>
+              <a href="#" class="card-shop-button">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/public/card-3.png" alt="ELEAT Protein Granola" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Protein Granola</h3>
+              <p class="card-subtitle">300g pouches - 6 x 50g servings</p>
+              <a href="#" class="card-shop-button">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="card">
+            <div class="card-image">
+              <img src="/public/card-4.png" alt="ELEAT Build A Bundle" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Build A Bundle</h3>
+              <p class="card-subtitle">Mix and match your favourites</p>
+              <a href="#" class="card-shop-button">Shop Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-nav">
+          <div class="carousel-dot active"></div>
+          <div class="carousel-dot"></div>
+          <div class="carousel-dot"></div>
+          <div class="carousel-dot"></div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
